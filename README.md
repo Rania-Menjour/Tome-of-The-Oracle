@@ -22,10 +22,13 @@ Lore is transformed into visual artifacts using a local Stable Diffusion / SDXL 
 Synthetic Data Engineering
 Custom-generated rune and glyph images improve robustness against noisy, hand-drawn inputs.
 
+
+
 Experiment Tracking
 MLflow logs inference metadata to ensure reproducibility and transparent experimentation.
 
 🧠 System Architecture
+
 User Input (Text / Image)
         ↓
 Agentic Controller (LangChain)
@@ -40,6 +43,7 @@ Lore-to-Image Prompt Adapter
 ComfyUI (Stable Diffusion / SDXL)
         ↓
 Rendered Tome Page
+
 
 🛠️ Tech Stack
 
