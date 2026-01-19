@@ -29,20 +29,18 @@ MLflow logs inference metadata to ensure reproducibility and transparent experim
 
 🧠 System Architecture
 
-User Input (Text / Image)
-        ↓
-Agentic Controller (LangChain)
-        ↓
-┌───────────────┬────────────────┐
-│ Vision Agent  │ Lore Agent     │
-│ (BLIP / OCR)  │ (Local LLM)    │
-└───────────────┴────────────────┘
-        ↓
-Lore-to-Image Prompt Adapter
-        ↓
-ComfyUI (Stable Diffusion / SDXL)
-        ↓
-Rendered Tome Page
+
+**User Input (Text / Image)**  
+↓  
+**Agentic Controller (LangChain)**  
+↓  
+**Vision Agent (BLIP / OCR)** + **Lore Agent (Local LLM)**  
+↓  
+**Lore-to-Image Prompt Adapter**  
+↓  
+**ComfyUI (Stable Diffusion / SDXL)**  
+↓  
+**Rendered Tome Page**
 
 
 🛠️ Tech Stack
