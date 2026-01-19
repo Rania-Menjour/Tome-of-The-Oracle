@@ -58,3 +58,77 @@ Data Processing: OpenCV, Albumentations
 Tracking: MLflow
 
 Frameworks: PyTorch, HuggingFace Transformers
+
+🚀 Getting Started
+1. Prerequisites
+
+Python 3.10+
+
+GPU recommended (8GB+ VRAM for SDXL)
+
+Ollama installed
+
+ComfyUI installed and runnable
+
+2. Clone the Repository
+git clone https://github.com/yourusername/tome-of-the-oracle.git
+cd tome-of-the-oracle
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Run Ollama
+ollama pull mistral
+ollama run mistral
+
+5. Start ComfyUI (API Mode)
+python main.py --listen 0.0.0.0 --port 8188
+
+6. Run the Tome
+python run_tome.py
+
+🧪 Example Workflow
+
+Upload a sketch or rune image
+
+Vision agent generates a semantic description
+
+Lore agent produces:
+
+Origin myth
+
+Magical properties
+
+Curse or blessing
+
+Civilization & era
+
+ComfyUI renders a visual artifact
+
+Output appears as a “page” of the Tome
+
+🎯 Project Scope & Intent
+
+This project is a proof of concept, focused on:
+
+System design
+
+Agentic orchestration
+
+Local, privacy-first inference
+
+Multimodal reasoning
+
+It intentionally prioritizes architectural clarity over large-scale fine-tuning.
+
+🔮 Future Extensions
+
+Fine-tuning vision models with LoRA
+
+Animated “page turning” effects
+
+Expanded rune language generation
+
+Interactive UI (Gradio / Streamlit)
+
+Memory-aware lore continuity
