@@ -71,7 +71,7 @@ Ollama installed
 ComfyUI installed and runnable
 
 2. Clone the Repository
-git clone https://github.com/yourusername/tome-of-the-oracle.git
+git clone https://github.com/Rania-Menjour/tome-of-the-oracle.git
 cd tome-of-the-oracle
 
 3. Install Dependencies
